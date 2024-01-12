@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>register</title>
+  <style>
+    html {
+      font-size: 15px;
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    form {
+      width: 50%;
+      max-width: 900px;
+      min-width: 350px;
+      margin: 0 auto;
+      border: 1px solid rgb(22, 19, 19);
+      text-align: center;
+      margin-top: 5%;
+      border-radius: 5px;
+      background: linear-gradient(purple, white);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    input {
+      width: 90%;
+      padding: 5px;
+      border-radius: 15px;
+      font-size: 1rem;
+      border: 1px solid rgb(179, 102, 102);
+
+    }
+
+    .input-fields {
+      margin: 0.5rem 0rem;
+    }
+
+    button {
+      display: block;
+      width: 70%;
+      margin: auto;
+      background-color: blueviolet;
+      color: white;
+      padding: 5px;
+      border-radius: 15px;
+
+    }
+
+    a {
+      color: red;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <form action="/login" method="POST">
+
+    <div class="input-fields">
+      <input type="email" name="email" id="email">
+      <h4>Email</h4>
+    </div>
+    <div class="input-fields">
+      <input type="text" name="password" id="password">
+      <h4>Password</h4>
+    </div>
+    <div class="btn">
+      <button type="submit">SignIn</button>
+
+    </div>
+    <p><a href="register">Click here to Register</a></p>
+
+  </form>
+
+
+</body>
+
+</html>
